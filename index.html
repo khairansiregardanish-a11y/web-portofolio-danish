@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio pribadi - Mahasiswa Sistem Informasi">
+  <title>Portofolio | Nama Lengkap</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 1. NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">Nama<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="navMenu">
+      <a href="#home">Beranda</a>
+      <a href="#about">Tentang</a>
+      <a href="#experience">Pengalaman</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <!-- ===== 1. HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-text reveal">
+      <p class="hello">Halo, saya</p>
+      <h1>Danish Khairan Siregar</h1>
+      <p class="tagline">Mahasiswa Sistem Informasi </p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+        <a href="#projects" class="btn btn-outline">Lihat Proyek</a>
+      </div>
+    </div>
+    <div class="hero-photo reveal">
+      <div class="photo-frame">
+        <!-- Ganti assets/img/foto-profil.jpg dengan foto kamu -->
+        <img src="c:\Users\ASUS\Downloads\WhatsApp Image 2026-10-25 at 21.25.24.jpeg" alt="Foto profil Danish Khairan Siregar"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-fallback">NL</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 2. TENTANG SAYA ===== -->
+  <section class="section" id="about">
+    <h2 class="section-title reveal">Tentang Saya</h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          Saya adalah mahasiswa Sistem Informasi di Universitas Tanjung pura Fakultas Matematika dan Ilmu Pengetahuan Alam yang tertarik pada dunia IT,
+          khususnya pengembangan web dan desain antarmuka. Saya senang mengubah ide menjadi
+          tampilan yang rapi, mudah dipakai, dan bermanfaat.
+        </p>
+        <p>
+          <strong>Latar belakang pendidikan:</strong> Lulusan Madrasah Aliyah Negeri Singkawang, kini menempuh
+          semester [1], di Fakultas Matematika Ilmu Pengetahuan Alam
+        </p>
+        <p>
+          <strong>Hobi:</strong> Bermain Game,Mendengar musik,Traveling
+        </p>
+      </div>
+      <div class="about-skills reveal">
+        <h3>Keahlian yang Sedang Dipelajari</h3>
+        <div class="skill">
+          <div class="skill-label"><span>HTML &amp; CSS</span><span>0%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label"><span>Python</span><span>20%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label"><span>UI/UX Design (Figma)</span><span>10%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label"><span>Basis Data (MySQL)</span><span>0%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 3. PENGALAMAN & RIWAYAT ===== -->
+  <section class="section alt" id="experience">
+    <h2 class="section-title reveal">Pengalaman &amp; Pendidikan</h2>
+    <div class="timeline-wrap">
+      <div class="timeline reveal">
+        <h3>Pengalaman Organisasi</h3>
+        <div class="item">
+          <span class="year">2026 - Sekarang</span>
+          <h4>Tidak Ada.</h4>
+          <p></p>
+        </div>
+        <div class="item">
+          <span class="year">2024</span>
+          <h4>Petugas Kesehatan.</h4>
+          <p>Bertugas di MANDEL CUP</p>
+        </div>
+        <div class="item">
+          <span class="year">2024-2026</span>
+          <h4>Anggota PMR[Palang Merah Remaja]</h4>
+          <p>Aktif dalam kegiatan sekolah dan koordinasi acara.</p>
+        </div>
+      </div>
+
+      <div class="timeline reveal">
+        <h3>Riwayat Pendidikan</h3>
+        <div class="item">
+          <span class="year">2026 - Sekarang</span>
+          <h4>S1 Sistem Informasi</h4>
+          <p>Fakultas Matematika dan Ilmu Pengetahuan Alam</p>
+        </div>
+        <div class="item">
+          <span class="year">2023 - 2026</span>
+          <h4>SMA/SMK Madrasah Aliyah Negeri Kota Singkawang</h4>
+          <p>Jurusan Peminatan IPS.</p>
+        </div>
+        <div class="item">
+          <span class="year">Prestasi</span>
+          <h4>Tidak ada.</h4>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 4. PROYEK / KARYA ===== -->
+  <section class="section" id="projects">
+    <h2 class="section-title reveal">Proyek &amp; Karya</h2>
+    <div class="card-grid">
+      <article class="card reveal">
+        <div class="card-thumb grad1">Web</div>
+        <div class="card-body">
+          <h4>Website Profil Pribadi</h4>
+          <p>Situs portofolio responsif dengan HTML, CSS, dan JavaScript.</p>
+          <a href="#" class="card-link">Lihat proyek &rarr;</a>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="card-thumb grad2">UI/UX</div>
+        <div class="card-body">
+          <h4>Desain Aplikasi Mobile</h4>
+          <p>Prototipe aplikasi di Figma sebagai tugas mata kuliah UI/UX.</p>
+          <a href="#" class="card-link">Lihat proyek &rarr;</a>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="card-thumb grad3">DB</div>
+        <div class="card-body">
+          <h4>Sistem Informasi Perpustakaan</h4>
+          <p>Perancangan basis data dan antarmuka peminjaman buku.</p>
+          <a href="#" class="card-link">Lihat proyek &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== 5. KONTAK & SOSIAL MEDIA ===== -->
+  <section class="section contact" id="contact">
+    <h2 class="section-title reveal">Kontak</h2>
+    <p class="contact-intro reveal">Tertarik berkolaborasi atau sekadar menyapa? Hubungi saya lewat tautan berikut.</p>
+    <div class="social reveal">
+      <a href="mailto:kahiransiregar25@gmail.com" class="btn btn-primary">Email</a>
+      <a href="https://www.instagram.com/dnshh_srgar_25?vrfl=azN0NTlycGU1cDN1" target="_blank" rel="noopener" class="btn btn-outline">Instagram</a>
+      <a href="https://wa.me/62895613262117?s=t" target="_blank" rel="noopener" class="btn btn-outline">Whatshapp</a>
+      <a href="https://github.com/khairansiregardanish-a11y" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Danish Khairan Siregar. Dibuat dengan semangat belajar.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
